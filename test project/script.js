@@ -22,6 +22,7 @@ for (let i = 0; i < 2; ++i) {
         appData.expenses[keyName] = cost;
     } else {
         alert("Cтроки пустые...");
+        --i;
     }
 }
 
